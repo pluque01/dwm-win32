@@ -37,7 +37,6 @@ jobs:
 
     - name: Create draft release and upload asset
       uses: softprops/action-gh-release@v1
-      if: startsWith(github.ref, 'refs/tags/')
       with:
         draft: true
         files: dwm-win32.exe
