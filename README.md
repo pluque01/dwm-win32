@@ -1,3 +1,5 @@
+* This forks removes Alt Ctrl to toggle view
+
 dwm-win32 is a port of the well known X11 window manager dwm to Microsoft
 Windows.
 
